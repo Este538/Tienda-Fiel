@@ -6,12 +6,12 @@ Integrantes:
 
 1. Cetina Ucan Iván de Jesús.
 
-<img src = "IvanPicture.jpeg" width = "250" height = "270">
+<img src = "https://i.postimg.cc/ZnwLSjnr/Whats-App-Image-2022-06-19-at-11-33-27-AM.jpg" width = "250" height = "270">
 
 2. Pacheco Serralta Esteban Alfonso.
 
-<img src = "EstebanPicture.jpeg" width = "200" height = "200">
+<img src = "https://i.postimg.cc/4db58XT2/Whats-App-Image-2022-06-18-at-4-10-21-PM.jpg" width = "200" height = "200">
 
 3. Us Cachón Dilian Armando.
 
-<img src = "DilianPicture.jpeg" width = "250" height = "300">
+<img src = "https://i.postimg.cc/Fzrx8wrr/Whats-App-Image-2022-06-19-at-4-55-24-PM.jpg" width = "250" height = "300">
