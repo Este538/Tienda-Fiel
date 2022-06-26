@@ -58,3 +58,16 @@ header nav{
     
 }
 
+p.usuario{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color:goldenrod;
+}
+
+input{
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    align-items: center;
+}

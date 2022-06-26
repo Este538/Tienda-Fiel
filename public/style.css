@@ -58,3 +58,27 @@ header nav{
     
 }
 
+p.usuario{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color:goldenrod;
+    margin-top: 5px;
+}
+
+input{
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 600px;
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+}
+
+.validar{
+    margin-left: 650px;
+}
+
+.validar2{
+    margin-left: 660px;
+}
