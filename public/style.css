@@ -113,3 +113,7 @@ input{
 .carrusel-item:hover{
     transform: scale(1.2);
 }
+
+.enlace {
+    color: #000;
+}
