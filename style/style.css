@@ -21,7 +21,7 @@ p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
 a{text-decoration: none; }
-img{ max-width: 100%;}
+img{ max-width: 100%; object-fit: cover;}
 .container-nav{
     max-width: 1700px;
     display: flex;
@@ -71,20 +71,16 @@ header a:hover{
 #hero{
     max-width: 100%;
 }
-.slider{
-    max-width: 100%;
-    align-items: center;
+
+
+
+.slideshow{
+    position: relative;
+    z-index: 998;
+    height: 600px;
 }
-.slider__contenedor{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-}
-.slider_anterior{
-    height: 50px;
-    width: 10px;
-}
+
+
 
 
 
