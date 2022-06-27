@@ -68,9 +68,22 @@ header a:hover{
 }
 
 /*Slider*/
-
 #hero{
-    width: 100%;
+    max-width: 100%;
+}
+.slider{
+    max-width: 100%;
+    align-items: center;
+}
+.slider__contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.slider_anterior{
+    height: 50px;
+    width: 10px;
 }
 
 
