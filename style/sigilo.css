@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+h1{ font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em; padding: 10px;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+a{text-decoration: none; }
+
+.container-nav{
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav-menu-item{
+    padding: 5px 12px;
+}
+
+.nav-menu-link{
+    color: black;
+    font-weight: bold;
+    
+}
+
+p.usuario{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color:goldenrod;
+    margin-top: 5px;
+}
+
+input{
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 600px;
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+}
+
+.validar{
+    margin-left: 650px;
+}
+
+.validar2{
+    margin-left: 660px;
+}
+
+.carrusel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 50px 0px;
+}
+
+.carrusel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    outline: 2px solid black;
+}
+
+.carrusel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover{
+    transform: scale(1.2);
+}
+
+.enlace {
+    color: #000;
+}
