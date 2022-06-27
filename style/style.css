@@ -92,5 +92,65 @@ header a:hover{
   width: 50%;
 }
 
+/*Parte de los botones del login*/
 
+p.usuario{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color:goldenrod;
+    margin-top: 5px;
+}
 
+input{
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 600px;
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+}
+
+.validar{
+    margin-left: 650px;
+}
+
+.validar2{
+    margin-left: 660px;
+}
+
+/*Parte del catálogo*/
+.carrusel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 50px 0px;
+}
+
+.carrusel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    outline: 2px solid black;
+}
+
+.carrusel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover{
+    transform: scale(1.2);
+}
+
+.enlace {
+    color: #000;
+}
