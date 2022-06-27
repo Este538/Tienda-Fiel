@@ -11,17 +11,46 @@ html{
 body{
     font-family: sans-serif;
     margin: 0;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1{ font-size: 3.5em;}
 h2{font-size: 2.7em;}
-h3{font-size: 2em; padding: 10px;}
+h3{font-size: 2em; padding: 5px;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
 a{text-decoration: none; }
 img{ max-width: 100%; object-fit: cover;}
+
+.search{
+    height: 33px;
+    width: 33px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.registro{
+    font-size: 10px;
+    border: none;
+    background: #fcec57 ;
+    border-radius: 10px;
+    color: black;
+}
+
+.carritoIcon{
+    height: 33px;
+    width: 33px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: black;
+}
+
 .container-nav{
     max-width: 1700px;
     display: flex;
@@ -67,46 +96,110 @@ header a:hover{
     color: #0ee020;
 }
 
+.registro :hover{
+    background-color: #efe9d8 ;
+    border-radius: 10px;
+}
+
+.search:hover,.carritoIcon:hover {
+    color: #0ee020;
+}
+
+
+.carrito{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    align-items: center;
+}
 /*Slider*/
 #hero{
     max-width: 100%;
     max-height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 .container-slider{
     align-items: center;
     justify-content: center;
-    
+   
 }
 
 .container-logo img{
     width: 100%;
     height: 100%;
-    transform: transition 1s;
+   
 }
-
-
-
 
 
 /*SECCION SOBRE COMPANIA */
 #sobreT {
     max-width: 100%;
-    padding-top: 20px;
     max-height: 100%;
 }
 
 .container-st{
     display: flex;
+    justify-content: center;
 }
 
 .foto{
   width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8f8f8;
+  min-height: 100%;
 }
+
+.foto img{
+    object-fit: cover;
+}
+
 
 .descripcion{
   width: 50%;
+  align-items: center;
+  text-align: center;
+  font-size: .70em;
 }
 
+.descripcion p{
+    padding: 10px 10px;
+}
 
+/* footer*/
 
+footer{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+    
+}
+
+.fa-solid fa-citrus{
+    
+}
+
+/*para pc*/
+
+@media (min-width: 720px){
+    .container-nav{
+        flex-direction: row;
+    }
+
+    .nav-menu{
+        flex-direction: row;
+        padding-right: 30px;
+        
+        
+    }
+
+}

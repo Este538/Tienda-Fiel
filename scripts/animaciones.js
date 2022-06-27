@@ -15,6 +15,7 @@ const slideShow = () =>{
     }else{
         i = 0;
     }
+    
 }
 
 window.onload = function (){
