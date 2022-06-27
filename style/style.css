@@ -21,13 +21,14 @@ p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
 a{text-decoration: none; }
-
+img{ max-width: 100%;}
 .container-nav{
     max-width: 1700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
 }
 
 header{
@@ -42,10 +43,14 @@ header .logo{
     text-align: center;
 }
 
-header nav{
+.nav-menu{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    top: 60px;
+    width: 100%;
+    background-color: #f8f8f8;
 }
 
 .nav-menu-item{
@@ -57,4 +62,36 @@ header nav{
     font-weight: bold;
     
 }
+
+header a:hover{
+    color: #0ee020;
+}
+
+/*Slider*/
+
+#hero{
+    width: 100%;
+}
+
+
+
+
+/*SECCION SOBRE COMPANIA */
+#sobreT {
+    max-width: 100%;
+}
+
+.container-st{
+    display: flex;
+}
+
+.foto{
+  width: 50%;
+}
+
+.descripcion{
+  width: 50%;
+}
+
+
 
