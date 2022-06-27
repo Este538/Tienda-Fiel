@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contacto.css">
+    <title>Contacto</title>
+    <!--probando si se cambio el nombre -->
+</head>
+<body>
+    <header >
+        <div class="container-nav">
+            <div class="logo">
+                <a href="index.html" class="logo">logo</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link">Catálogo</a></li>
+                    <li class="nav-menu-item"><a href="contacto.html" class="nav-menu-link">Contacto</a></li>
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="form">
+        <div class="container">
+            <div class="titulo"><p class="titulo">Contacto</p></div>
+            <form action="">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Nombre</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="tipo">Tipo de Contacto</label>
+              </div>
+              <div class="col-75">
+                <select id="tipo" name="tipo">
+                    <option value="australia">Mercado</option>
+                    <option value="canada">Restaurante</option>
+                    <option value="usa">Persona Fisica</option>
+                    <option value="usa">Empresa abarrotes</option>
+                    <option value="usa">Organización sin fines de lucro</option>
+                    <option value="usa">Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="correo">Correo</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="correo" name="correo" placeholder="Un correo...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="mensaje">Mensaje</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Escribe algo" style="height:200px"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Enviar">
+            </div>
+            </form>
+          </div>
+    </section>
+
+    <section id="sobreT">
+        
+    </section>
+</body>
+</html>
