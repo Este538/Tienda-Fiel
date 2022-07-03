@@ -1,6 +1,9 @@
 const imgArray = [
-    "/images/Catálogo.png",
-    "/images/Desktop - 1.png"
+    "../images/citrico_1.webp",
+    "../images/citrico_2.webp",
+    "../images/citrico_3.jpg",
+    "../images/citrico_4.png"
+    
     
 ];
 
