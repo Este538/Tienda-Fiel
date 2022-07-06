@@ -1,16 +1,17 @@
 <?php require('../layout/header.php') ?>
 
 <main>
-<section id="hero">
+    <section id="hero">
         <div class="container-slider">
-           <img src="../images/Catálogo.png" alt="imagen" id="slide">
+           <img src="../images/citrico_1.webp" alt="imagen" id="slide" class="img_slider">
         </div>
     </section>
 
     <section id="sobreT">
+        
         <div class="container-st">
              <div class="foto">
-                <img src="../images/citrico_1.webp" alt="citricos">
+                <img src="../images/citrico_1.webp" alt="citricos" > 
             </div>
             <div class="descripcion">
                 <p>

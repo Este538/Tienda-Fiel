@@ -9,25 +9,41 @@
     <link rel="stylesheet" href="../style/style.css">
     <script src="https://kit.fontawesome.com/5edc3a915f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link rel="stylesheet" href="../style/headerFooter.css">
     <link rel="stylesheet" href="../style/style.css"> 
+    <link rel="stylesheet" href="../style/standard.css"> 
+    
     <!--Ultimo commit unificado--> 
 </head>
 <body>
-    <header >
+    <div id="top-header">
+        <div class="container-th">
+            <div class="contact-info">
+                <span class="info-tel">(999) 396 82 50</span>
+                <a href="mailto:dilian0217@gmail.com">
+                    <span class="info-mail">distribuidora@empresa.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header id="header">
         <div class="container-nav">
             
-            <div class="logo">
-                <a href="../public/index.html" class="logo">logo</a>
+            <div class="logo-container">
+                <a href="../public/index.php" class="logo"><img src="../images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
             </div>
-            <nav>
-                <ul class="nav-menu" id="nav-menu">
+            <div class="nav">
+                <nav>
+                    <ul class="nav-menu" id="nav-menu">
 
-                    <li class="nav-menu-item"><a href="catalogo.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
-                    <li class="nav-menu-item"><a href="contacto.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
-                    <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
-                    
-                </ul>
-            </nav>
+                        <li class="nav-menu-item"><a href="catalogo.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
+                        <li class="nav-menu-item"><a href="contacto.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
+                        <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+           
             <div class="carrito">
                 <button id="search" class="search">
                     <i class="fa-solid fa-magnifying-glass"></i>

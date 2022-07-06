@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*top-header*/ 
+#top-header, #top-header a{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6)
+}
+.fa-solid, .fa-lemon{
+    color: #FFB72B;
+}
+#top-header{
+    background-color: #FFB72B;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;  
+    color: #ffffff; 
+}
+
+#top-header .container-th, #top-header .contact-info{
+    line-height: 1em;
+}
+
+#top-header .container-th{
+    padding-top: .75em;
+    font-weight: 600;
+}
+
+.container-th{
+    margin: auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    width: 80%;
+    max-width: 1080px;
+}
+
+.contact-info{
+    padding-bottom: .75em;
+    display: block;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-tel{
+    margin-right: 13px;
+}
+
+.info-tel, .info-mail{
+    position: relative;
+}
+
+/*header*/ 
+
+#header{
+    display: flex;
+    font-size: 100%;
+    position: fixed;
+    top: 36px;
+    line-height: 23px;
+    font-weight: 500;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    z-index: 99999;
+}
+
+
+
+.container-nav{
+    display: flex;
+    flex-direction: row ;
+    height: 118px;
+    z-index: 99;
+    text-align: left;
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+}
+nav{
+    height: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+}
+
+.logo-container{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu-item, .nav-menu-link{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    margin-right: 25px;
+    
+}
+.nav-menu-link{
+    gap: 3px;
+}
+
+.nav-menu li{
+    padding: 12px 12px;
+}
+
+.carrito button{
+   margin: 12px 12px;
+}
+
