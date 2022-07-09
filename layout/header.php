@@ -12,32 +12,33 @@
     <link rel="stylesheet" href="../style/headerFooter.css">
     <link rel="stylesheet" href="../style/style.css"> 
     <link rel="stylesheet" href="../style/standard.css"> 
-    
+    <link rel="stylesheet" href="../style/contacto.css">
     <!--Ultimo commit unificado--> 
 </head>
 <body>
     <div id="top-header">
         <div class="container-th">
             <div class="contact-info">
-                <span class="info-tel">(999) 396 82 50</span>
+                <span class="info-tel"><i class="fa-solid fa-phone"></i>(999) 396 82 50</span>
                 <a href="mailto:dilian0217@gmail.com">
-                    <span class="info-mail">distribuidora@empresa.com</span>
+                    <span class="info-mail"><i class="fa-solid fa-envelope"></i>distribuidora@empresa.com</span>
                 </a>
             </div>
         </div>
     </div>
     <header id="header">
+
+        <div class="logo-container">
+                    <a href="../public/index.php" class="logo"><img src="../images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
+         </div>
         <div class="container-nav">
             
-            <div class="logo-container">
-                <a href="../public/index.php" class="logo"><img src="../images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
-            </div>
             <div class="nav">
                 <nav>
                     <ul class="nav-menu" id="nav-menu">
 
-                        <li class="nav-menu-item"><a href="catalogo.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
-                        <li class="nav-menu-item"><a href="contacto.html" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
+                        <li class="nav-menu-item"><a href="catalogo.php" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
+                        <li class="nav-menu-item"><a href="contacto.php" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
                         <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
                         
                     </ul>
@@ -58,5 +59,6 @@
                     
                 </button>
             </div>
+            
         </div>
     </header>

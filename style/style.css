@@ -14,8 +14,18 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: auto;
+}
+#form{
+    display: flex;
+    position: relative;
+    top: 116px;
 }
 
+main{
+    position: relative;
+    top: 116px;
+}
 /*
 img{ max-width: 100%; object-fit: cover;}
 

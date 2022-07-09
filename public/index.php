@@ -1,5 +1,4 @@
 <?php require('../layout/header.php') ?>
-
 <main>
     <section id="hero">
         <div class="container-slider">
