@@ -143,18 +143,15 @@ a{
 
 
 /*footer*/
-footer{
-    background-color: #FFB72B;
-    color: black;
-    width: 100%;
-    height: 10px;
-    text-align: center;
-    padding: 1em 0;
-    display: block;
-}
+
 
 #footer{
+    color: black;
+    width: 100%;
+    text-align: center;
     background-color: #222222;
+
+    margin-top: auto;
 }
 
 
