@@ -31,8 +31,8 @@
         <div class="logo-container">
                     <a href="../public/index.php" class="logo"><img src="../images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
          </div>
-        <div class="container-nav">
-            
+         <div class="container-nav">
+            <span class="span-help"></span>
             <div class="nav">
                 <nav>
                     <ul class="nav-menu" id="nav-menu">
@@ -58,7 +58,12 @@
                     <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     
                 </button>
-            </div>
-            
-        </div>
+             </div>
+         </div>
+         <div class="bars">
+            <button class="btn-bars">
+                 <i class="fa-solid fa-bars"></i>
+            </button>
+
+         </div>
     </header>

@@ -1,148 +1,43 @@
 
-
-
-
-/*
-img{ max-width: 100%; object-fit: cover;}
-
-.search{
-    height: 33px;
-    width: 33px;
-    font-size: 26px;
-    background: none;
-    border: none;
-    color: black;
-}
-
-.registro{
-    font-size: 10px;
-    border: none;
-    background: #fcec57 ;
-    border-radius: 10px;
-    color: black;
-}
-
-.carritoIcon{
-    height: 33px;
-    width: 33px;
-    font-size: 26px;
-    background: none;
-    border: none;
-    color: black;
-}
-
-.container-nav{
-    max-width: 1700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-}
-
-header{
-    background-color: #f8f8f8;
+/*Slider*/
+#mine-hero{
+    top: 118px;
     width: 100%;
-}
-
-header .logo{
-    margin: 0;
-    padding: 25px 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.nav-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    top: 60px;
-    width: 100%;
-    background-color: #f8f8f8;
-}
-
-.nav-menu-item{
-    padding: 5px 12px;
-}
-
-.nav-menu-link{
-    color: black;
-    font-weight: bold;
-    
-}
-
-header a:hover{
-    color: #0ee020;
-}
-
-
-.registro :hover{
-    background-color: #efe9d8 ;
-    border-radius: 10px;
-}
-
-.search:hover,.carritoIcon:hover {
-    color: #0ee020;
-}
-
-
-.carrito{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 44px;
-    align-items: center;
-}
-Slider
-#hero{
-    max-width: 100%;
-    max-height: 100%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-    
+    height: 100%;
+    background-size: cover;
+    background-image:url(../images/almacenBg.gif); 
+    color: #fff;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    border-radius: 0 0 0 10vw;
+    margin-bottom: 30px;
 }
 
 .container-slider{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 260px;
-    width: 70%;
-}
- 
-.img_slider{
-    width: 1300px;
-    height: 866px;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-
-.container-logo img{
-    width: 100%;
     height: 100%;
-   
+    background-image: radial-gradient(circle at left,rgba(12,113,195,0.38) 26%,rgba(12,113,195,0.73) 56%);
+    border-radius: 0 0 0 10vw;
 }
 
 
-SECCION SOBRE COMPANIA 
+/*SECCION SOBRE COMPANIA*/ 
 #sobreT {
     max-width: 100%;
     max-height: 100%;
+    
 }
 
 .container-st{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 39px 0 39px;
+    padding: 30px 0 30px 0;
 }
 
 .foto{
-  width: 50%;
+  border-radius: 10vw 10vw 10vw 0;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -152,11 +47,15 @@ SECCION SOBRE COMPANIA
 
 .foto img{
     object-fit: cover;
+    border-radius: 10vw 10vw 10vw 0;
 }
 
-
+.citrico-sobre{
+    border-radius: 10vw 10vw 10vw 0;
+    padding
+}
 .descripcion{
-  width: 50%;
+  
   align-items: center;
   text-align: center;
   font-size: .70em;
@@ -167,33 +66,9 @@ SECCION SOBRE COMPANIA
     padding: 10px 10px;
 }
 
- footer
-
-footer{
-    background-color: #f8f8f8;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    padding: 1em 0;
-    margin-top: auto;
-    
-}
-
  
 
-Parte de los botones del login
 
-
-p.usuario{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    color:goldenrod;
-    margin-top: 5px;
-}
-
-
-para pc
 
 @media (min-width: 720px){
     .container-nav{
@@ -261,4 +136,4 @@ para pc
 
        
 }
-*/
+

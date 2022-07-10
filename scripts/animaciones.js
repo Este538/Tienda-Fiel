@@ -1,18 +1,14 @@
 const imgArray = [
-    "../images/citrico_1.webp",
-    "../images/citrico_2.webp",
-    "../images/citrico_3.jpg",
-    "../images/citrico_4.png"
-    
-    
+    "../images/almacenBg.gif",
+    "../images/frutasb2.gif",
+    "../images/frutasb3.gif",
 ];
 
-const img = document.getElementById("slide");
-
+const hero = document.getElementById("mine-hero");
 let i = 0;
 
 const slideShow = () =>{
-    img.src = imgArray[i];
+    hero.style.backgroundImage  = "url('"+imgArray[i]+"')";
     if(i<imgArray.length - 1){
         i=i+1;
     }else{
@@ -25,4 +21,10 @@ window.onload = function (){
     setInterval(slideShow, 5000)
 };
 
-    
+
+const navToggle = document.querySelector('.btn-bars');
+const navMenu = document.querySelector('.container-nav');
+
+navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+});

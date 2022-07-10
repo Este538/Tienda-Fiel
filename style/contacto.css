@@ -3,7 +3,7 @@
     top: 118px;
     width: 100%;
     height: 100%;
-    background-image:radial-gradient(circle at left,rgba(12,113,195,0.38) 26%,rgba(12,113,195,0.73) 56%), url(../images/almacenBg.jpg); 
+    background-image:radial-gradient(circle at left,rgba(12,113,195,0.38) 26%,rgba(12,113,195,0.73) 56%), url(../images/almacenBg.gif); 
     background-size: cover;
     color: #fff;
     height: 500px;
@@ -77,17 +77,35 @@
 
 /*sucursales*/
 #sucursales{
-    
-    
+    margin-top: 30px;
+    max-width: 100%;
+    height: 400px;
 }
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+iframe{
+    width: 90%;
+    height: 100%;
+}
+
+.visitanos-titulo{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
 
 /*contactanos*/
-
 #contactanos{
-    
-   
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
 .formulario{
     width: 100%;
     padding:  30px 0 0 15px;
