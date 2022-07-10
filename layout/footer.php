@@ -1,4 +1,4 @@
-     <footer>
+     <footer id="footer">
         <div class="footer-container">
             <p>&copy;2022 CitrusConect</p>
         </div>

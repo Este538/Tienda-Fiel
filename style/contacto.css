@@ -1,92 +1,142 @@
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
 
-  input[type=email], select, textarea {
+#hero-contactanos{
+    top: 118px;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
+    height: 100%;
+    background-image:radial-gradient(circle at left,rgba(12,113,195,0.38) 26%,rgba(12,113,195,0.73) 56%), url(../images/almacenBg.jpg); 
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    border-radius: 0 0 0 10vw;
+    margin-bottom: 30px;
+}
 
-  input[type=password], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
-  
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  
-  input[type=submit] {
-    
-    border-style: solid;
-    border-color: #0ee020;
-    background-color: white;
-    color: black;
-    padding: 12px 20px;
-    
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #0ee020;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
+.container-contacto{
+    display: flex;
+   justify-content: center;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    padding: 30px 0;
+    max-width: 1080px;
+    background-position: 50%;
     position: relative;
-  }
-  
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  p.titulo{
+    margin: auto;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30;
 }
 
-#bton-comprar{
-    border-style: solid;
-    border-color: #0ee020;
-    background-color:white;
-    color: black;
-    padding: 12px 20px;
-    border-radius: 4px;
+.contacto-titulo{
+    font-size: 25px;
+}
+
+/*datos empresa*/
+#datos-empresa{
+    background-color: #FFB72B;
+    border-radius: 0 0 14vw 14vw;
+}
+
+.container-datos{
+    padding: 19px;
+}
+.container-datos h3{
+    font-size: 27px;
+    padding: 0;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.container-datos p{
+    font-size: 20px;
+    padding-bottom: 16px;
+    color: #fff;
+}
+.ventas-contacto,.compras-contacto,.QYS{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.fa-headphones,.fa-id-card{
+    color: #fff;
+    font-size: 35px;
+}
+
+.icono-aud,.icon-comp{
+    display: flex;
+    padding-top: 5px;
+}
+
+.datos-section-contacto{
+    margin-left: 10px;
+}
+
+
+
+/*sucursales*/
+#sucursales{
+    
+    
+}
+
+/*contactanos*/
+
+#contactanos{
+    
+   
+}
+
+.formulario{
+    width: 100%;
+    padding:  30px 0 0 15px;
+}
+.formulario-contacto{
+    
+    width: 100%;
+    background-color: #f6f7fa;
+    background-position: 50%;
+    background-size: cover;
+    
+}
+.input{
+    box-shadow: 0px 20px 30px -6px rgb(173 180 208 /20%);
+    font-size: 16px;
+    line-height: 1.8em;
+    background-color: #ffffff;
+    color: #999;
+    padding: 16px;
+    padding: 0 0 0 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 60px;
+}
+
+.btn-enviar-container{
+    float: right;
+    text-align: right;
+    margin-top: 5%;
+    display: flex;
+    margin-right: 5%;
+}
+
+.btn-enviar{
+    color: #ffffff;
+    border-width: 7px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFB72B;
+    margin: 0 0 0 18px;
     cursor: pointer;
-    position: absolute;
+    position: relative;
+    display: inline-block;
+    padding: .3em 1em ;
+    line-height: 1.7em;
+    background-size: cover;
+    border: 2px solid;
+    transition-duration: .2s;
+    transition-property: all;
 }
-
-#bton-comprar:hover {
-    background-color: #0ee020;
-  }

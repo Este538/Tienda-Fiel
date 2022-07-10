@@ -1,5 +1,5 @@
 <?php require('../layout/header.php') ?>
-<main>
+<main class="main">
     <section id="hero">
         <div class="container-slider">
            <img src="../images/citrico_1.webp" alt="imagen" id="slide" class="img_slider">
