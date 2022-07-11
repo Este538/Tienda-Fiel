@@ -64,3 +64,16 @@
     object-fit: cover;
     border-radius: 10vw 10vw 10vw 0;
 }
+
+.descripcion p, .descripcion h3{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.descripcion h3{
+    color: #7ed957;
+}

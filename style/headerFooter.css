@@ -16,6 +16,9 @@ a{
 .fa-solid, .fa-lemon{
     color: #FFB72B;
 }
+.fa-bars{
+    color: #7ed957;
+}
 .fa-lemon{
     display: none;
 }
@@ -25,6 +28,10 @@ a{
 
 .registro{
     background: none;
+    
+}
+.registro p{
+    color: #7ed957;
 }
 
 #top-header{
@@ -97,7 +104,7 @@ a{
    max-width: 60%;
    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
     position: relative;
-    top: 81px;
+    top: 80px;
     height: 0;
     overflow: scroll;
     width: 200%;
@@ -106,8 +113,8 @@ a{
 }
 
 .nav-menu_visible{
-    height: 150%;
-    max-height: 150%;
+    height: 200%;
+    max-height: 200%;
   
 }
 
@@ -136,8 +143,8 @@ a{
     padding: 10px;
 }
 
-
 .btn-bars{
+    
     background: none;
     font-size: 36px;
 }

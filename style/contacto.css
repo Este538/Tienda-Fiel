@@ -158,3 +158,9 @@ iframe{
     transition-duration: .2s;
     transition-property: all;
 }
+
+@media (min-width:720px){
+    #hero-contactanos{
+        margin-bottom: 0;
+    }
+}
