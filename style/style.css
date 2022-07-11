@@ -1,0 +1,139 @@
+
+/*Slider*/
+#mine-hero{
+    top: 118px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:url(../images/almacenBg.gif); 
+    color: #fff;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    border-radius: 0 0 0 10vw;
+    margin-bottom: 30px;
+}
+
+.container-slider{
+    height: 100%;
+    background-image: radial-gradient(circle at left,rgba(12,113,195,0.38) 26%,rgba(12,113,195,0.73) 56%);
+    border-radius: 0 0 0 10vw;
+}
+
+
+/*SECCION SOBRE COMPANIA*/ 
+#sobreT {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.container-st{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 39px 0 39px;
+    padding: 30px 0 30px 0;
+}
+
+.foto{
+  border-radius: 10vw 10vw 10vw 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8f8f8;
+  min-height: 100%;
+}
+
+.foto img{
+    object-fit: cover;
+    border-radius: 10vw 10vw 10vw 0;
+}
+
+.citrico-sobre{
+    border-radius: 10vw 10vw 10vw 0;
+    padding
+}
+.descripcion{
+  
+  align-items: center;
+  text-align: center;
+  font-size: .70em;
+}
+
+
+.descripcion p{
+    padding: 10px 10px;
+}
+
+ 
+
+
+
+@media (min-width: 720px){
+    .container-nav{
+        flex-direction: row;
+    }
+
+    .nav-menu{
+        flex-direction: row;
+        padding-right: 30px;
+        
+        
+    }
+    .carrito{
+        padding-right: 30px;
+    }
+
+    input{
+        margin: 0px;
+        margin-top: 5px;
+        margin-left: 600px;
+        padding: 0px;
+        align-self: center;
+        text-align: center;
+    }
+
+   .validar{
+       margin-left: 650px;
+    }
+
+    .validar2{
+       margin-left: 660px;
+    }
+
+     Parte del catálogo
+     .carrusel {
+         height: 100vh;
+         display: flex;
+         align-items: center;
+     
+     }
+
+     .carrusel-items{
+         display: flex;
+         overflow-x: hidden;
+         overflow-y: hidden;
+         padding: 50px 0px;
+     }      
+
+      .carrusel-item{
+          min-width: 300px;
+          max-width: 300px;
+          height: 200px;
+          outline: 2px solid black;
+      }       
+
+       .carrusel-item img{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
+
+       .carrusel-item:hover{
+           transform: scale(1.2);
+       }
+
+       
+}
+
