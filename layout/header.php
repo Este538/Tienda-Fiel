@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style/style.css"> 
     <link rel="stylesheet" href="./style/standard.css"> 
     <link rel="stylesheet" href="./style/contacto.css">
+    <link rel="stylesheet" href="./style/login.css">
     <!--Ultimo commit unificado--> 
 </head>
 <body>
@@ -43,9 +44,32 @@
                         </nav>
                     </div>
                     <div class="carrito">
-                        <button id="registro" class="registro">
-                            <a href="login.html"><p>sing up/login</p></a>
-                        </button>
+                            <?php 
+                                session_start();
+                                include_once "config.php";
+                                if(!isset($_SESSION['ClaveUsuario'])){
+                                ?>
+                                <button id="registro" class="registro">
+                                    <a href="?p=singup"> <h3 class="registro-txt">Sing up/log in</h3></a>
+                                
+                                </button>
+                                <?php }else{
+                                    $sql = mysqli_query($conn, "SELECT * FROM usuarios WHERE ClaveUsuario = {$_SESSION['ClaveUsuario']}");
+                                    if(mysqli_num_rows($sql) > 0){
+                                    $row = mysqli_fetch_assoc($sql);
+                                    } ?>
+                                    <div class="content-user">
+                                        <img src="./layout/images/<?php echo $row['img']; ?>" alt="">
+                                        <div class="details">
+                                            <span><?php echo $row['Nombre']. " " . $row['Apellido'] ?></span>
+                                        </div>
+                                    </div>    
+                                    <button id="registro" class="registro">
+                                    <a href="./layout/logout.php?logout_id=<?php echo $row['ClaveUsuario']; ?>" class="logout">Cerrar Sesión</a>
+                                    </button>
+                                    <?php
+                                }
+                            ?>
                     </div>
                 </div>
                 <div class="bars">

@@ -32,8 +32,9 @@ a{
     background: none;
     
 }
-.registro p{
+.registro h3{
     color: #7ed957;
+    font-size: 16px;
 }
 
 #top-header{

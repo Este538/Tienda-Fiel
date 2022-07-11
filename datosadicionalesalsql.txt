@@ -1,0 +1,82 @@
+--
+-- Estructura de tabla para la tabla `mis_productos`
+--
+
+CREATE TABLE IF NOT EXISTS `mis_productos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `descripcion` text COLLATE utf8_unicode_ci NOT NULL,
+  `precio` float(10,2) NOT NULL,
+  `creado` datetime NOT NULL,
+  `modificado` datetime NOT NULL,
+  `status` enum('1','0') COLLATE utf8_unicode_ci NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
+
+--
+-- Volcar la base de datos para la tabla `mis_productos`
+--
+
+INSERT INTO `mis_productos` (`id`, `nombre`, `descripcion`, `precio`, `creado`, `modificado`, `status`) VALUES
+(1, 'Limon Persa', 'Producto extremadamente raro y muy cotizado en el mercado, aproveche.', 15.00, '2021-08-17 08:21:25', '2022-08-17 08:21:25', '1'),
+(2, 'Naranja Agria, 'No te atrevas a ponerle mayonesa a la cochinita pibil y mejor ponle Naranja Agria para esos domingos relajantes.', 25.00, '2016-08-17 08:45:35', '2022-08-17 08:21:25', '1'),
+(3, 'Mandarina gris', 'Una rareza preparada para ser puesta en un altar a tu paladar, vengale que se va y no vuelve.', 15.00, '2016-08-17 08:43:21', '2022-08-17 08:21:25', '1'),
+(4, 'China Fresca', 'El producto mas dulce que puedes probar en todo el mundo, calidad asegurada.', 25.00, '2016-08-17 08:21:25', '2019-08-17 08:21:25', '1');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `orden`
+--
+
+CREATE TABLE IF NOT EXISTS `orden` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `customer_id` int(11) NOT NULL,
+  `precio_total` float(10,2) NOT NULL,
+  `creado` datetime NOT NULL,
+  `modificado` datetime NOT NULL,
+  `status` enum('1','0') COLLATE utf8_unicode_ci NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `customer_id` (`customer_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
+
+--
+-- Volcar la base de datos para la tabla `orden`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `orden_articulos`
+--
+
+CREATE TABLE IF NOT EXISTS `orden_articulos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `cantidad` int(5) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `order_id` (`order_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `orden_articulos`
+--
+
+
+--
+-- Filtros para las tablas descargadas (dump)
+--
+
+--
+-- Filtros para la tabla `orden`
+--
+ALTER TABLE `orden`
+  ADD CONSTRAINT `orden_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `clientes` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `orden_articulos`
+--
+ALTER TABLE `orden_articulos`
+  ADD CONSTRAINT `orden_articulos_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orden` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
