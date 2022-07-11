@@ -40,7 +40,8 @@
       <div class="link">¿Ya te has registrado antes? <a href="?p=login">Ingresa aqui</a></div>
     </section>
   </div>
+  <script src="./scripts/signup.js"></script>
   <script src="./scripts/pass-show-hide.js"></script>
-  <script src="/scripts/signup.js"></script>
+  
   </main>    
 

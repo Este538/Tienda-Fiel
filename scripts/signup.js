@@ -11,7 +11,6 @@ continueBtn.onclick = ()=>{
     xhr.open("POST", "./layout/signup.php", true);
     xhr.onload = ()=>{
       if(xhr.readyState === XMLHttpRequest.DONE){
-        alert (xhr.status);
           if(xhr.status === 200){
               let data = xhr.response;
               if(data === "success"){

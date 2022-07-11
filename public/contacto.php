@@ -47,7 +47,7 @@
       <div class="mensaje-correcto">El correo se ha enviado con exito</div>
       <div class="mensaje-incorrecto">Ingresa los valores correctamente</div>
         <h3>Contáctanos</h3>
-        <form action="../layout/doc.php" method="POST" class="formulario-contacto" name="form" id="form" >
+        <form action="./layout/doc.php" method="POST" class="formulario-contacto" name="form" id="form" >
              <input type="text" name="nombre" id="nombre-contacto" placeholder="Nombre" class="correcto">
              <input type="text" name="Correo" id="correo-contacto" placeholder="Correo Electrónico" class="correcto">
              <input type="text" name="telefono" id="telefono-contacto" placeholder="Teléfono(10 dígitos)" class="correcto">
@@ -61,6 +61,6 @@
         </form>
       </div> 
   </section>
-  <script src="../scripts/forms.js"></script>
+  <script src="./scripts/forms.js"></script>
 </main>
 
