@@ -1,9 +1,4 @@
-<?php 
-  //session_start();
-  //if(isset($_SESSION['ClaveUsuario'])){
-    //header("location: users.php");
-  //}
-?>
+
 
 <?php include_once "../layout/header.php"; ?>
 <body>
