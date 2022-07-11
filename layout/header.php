@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/5edc3a915f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link rel="stylesheet" href="./style/print.css">
     <link rel="stylesheet" href="./style/headerFooter.css">
     <link rel="stylesheet" href="./style/style.css"> 
     <link rel="stylesheet" href="./style/standard.css"> 
     <link rel="stylesheet" href="./style/contacto.css">
     <link rel="stylesheet" href="./style/login.css">
+    
+    <style>
+    .container-tabla{padding: 20px;}
+    .cart-link{width: 100%;text-align: right;display: block;font-size: 22px;}
+    </style>
     <!--Ultimo commit unificado--> 
 </head>
 <body>
@@ -36,7 +45,10 @@
                         <nav>
                             <ul class="nav-menu" id="nav-menu">
                                 <li class="nav-menu-item"><a  href="?p=inicio" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Inicio</a></li>
-                                <li class="nav-menu-item"><a  href="?p=catalogo" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
+                                <?php if(!isset($_SESSION['ClaveUsuario'])){?>
+                                        <li class="nav-menu-item"><a  href="?p=index" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
+                                <?php }?>
+                                
                                 <li class="nav-menu-item"><a href="?p=contacto" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
                                 
                             </ul>
@@ -50,7 +62,6 @@
                                 ?>
                                 <button id="registro" class="registro">
                                     <a href="?p=singup"> <h3 class="registro-txt">Sing up/log in</h3></a>
-                                
                                 </button>
                                 <?php }else{
                                     $sql = mysqli_query($conn, "SELECT * FROM usuarios WHERE ClaveUsuario = {$_SESSION['ClaveUsuario']}");
@@ -77,6 +88,4 @@
                     </button>
 
                 </div>
-        
-        
     </header>

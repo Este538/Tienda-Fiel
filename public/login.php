@@ -2,7 +2,7 @@
 
   <main class="main">
     <div class="container-log">
-          <div class="wrapper">
+          <div class="wrapper wrapper-log">
         <section class="form login">
         <div class="titulo">Ingresar</div>
           <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">

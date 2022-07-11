@@ -147,28 +147,38 @@
   font-size: 17px;
 }
 
+.wrapper-log{
+  max-width: 100%;
+}
+
+.container-log{
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 @media (min-width:720px){
-    .container-sig{
+    .container-sig , .container-log{
       display: flex;
       width: 100vw;
       align-items: center;
       justify-items: center;
       padding: 4% 25% 25% 25%;
     }
+    .wrapper-log{
+      max-width: 85%;
+    }
  
-      .form-signup{
-        align-items: center;
-      }
-      .main{
-        align-items: center;
-      }
+      
     
 }
 
 
 @media (min-width:1080px){
-  .container-sig{
-  
+  .container-sig,.container-log{
     padding: 4% 25% 15% 35%;
+  }
+  .wrapper-log{
+    max-width: 50%;
   }
 }
