@@ -1,4 +1,4 @@
-.formulario h3,.visitanos-titulo h3{
+.formulario_contacto h3,.visitanos-titulo h3{
     color: #7ed957;
 }
 
@@ -220,6 +220,11 @@ iframe{
     transition-property: all;
     display: none;
 }
+#mensaje-contacto{
+   height: 200px;
+   overflow: scroll;
+}
+
 
 @media (min-width:720px){
     #hero-contactanos{
@@ -238,9 +243,31 @@ iframe{
     #contactanos{
         align-items: center;
         justify-content: center;
+        
     }
-    .formulario{
+    .formulario_contacto{
         width: 80%;
         margin-left: 10%;
+    }
+}
+
+@media (min-width:1080px){
+    .container-datos{
+        max-width: 100%;
+        margin-left: 10%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mapa{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .formulario_contacto{
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }

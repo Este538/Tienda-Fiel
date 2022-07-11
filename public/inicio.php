@@ -5,7 +5,13 @@
            <div class="contacto-tituloi"> <h3 id="texto-slider">Mas de 20 toneladas de fruta por dia</h3></div>
         </div>
     </section>
-
+    <section id="slogan">
+        <div class="sloganbg">
+            <div class="slogantxt">
+                <h3>Un servicio para tu servicio</h3>
+            </div>
+        </div>
+    </section>
     <section id="sobreT">
         
         <div class="container-st">

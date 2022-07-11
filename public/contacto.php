@@ -53,7 +53,7 @@
              <input type="text" name="telefono" id="telefono-contacto" placeholder="Teléfono(10 dígitos)" class="correcto">
              <input type="text" name="ciudad" id="ciudad-contacto" placeholder="Ciudad" class="correcto">
              <input type="text" name="estado" id="estado-contacto" placeholder="Estado" class="correcto">
-             <input type="message" name="mensaje" id="mensaje-contacto" placeholder="Mensaje" class="correcto">
+             <textarea name="mensaje" id="mensaje-contacto" cols="30" rows="10" class="correcto" placeholder="Mensaje"></textarea>
              <div class="btn-enviar-container">
               <button type=button name="enviar-fcontacto" class="btn-enviar" >Enviar</button>
               <button type=submit name="crear" class="crear-doc">Descargar</button>

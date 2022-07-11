@@ -1,6 +1,9 @@
      <footer id="footer">
+        <div class="footer-one">
+                <p><img src="./images/logo.png" alt="logo"></p>
+        </div>
         <div class="footer-container">
-            <p>&copy;2022 CitrusConect</p>
+            <p>&copy;2022 CitrusConect Company, Reservados todos los derechos</p>
         </div>
     </footer>
     <!--Scripts-->

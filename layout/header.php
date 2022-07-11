@@ -38,7 +38,6 @@
                                 <li class="nav-menu-item"><a  href="?p=inicio" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Inicio</a></li>
                                 <li class="nav-menu-item"><a  href="?p=catalogo" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
                                 <li class="nav-menu-item"><a href="?p=contacto" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
-                                <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
                                 
                             </ul>
                         </nav>

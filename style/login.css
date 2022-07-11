@@ -147,4 +147,28 @@
   font-size: 17px;
 }
 
+@media (min-width:720px){
+    .container-sig{
+      display: flex;
+      width: 100vw;
+      align-items: center;
+      justify-items: center;
+      padding: 4% 25% 25% 25%;
+    }
+ 
+      .form-signup{
+        align-items: center;
+      }
+      .main{
+        align-items: center;
+      }
+    
+}
 
+
+@media (min-width:1080px){
+  .container-sig{
+  
+    padding: 4% 25% 15% 35%;
+  }
+}

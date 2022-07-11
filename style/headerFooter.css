@@ -117,9 +117,8 @@ a{
 }
 
 .nav-menu_visible{
-    height: 200%;
-    max-height: 200%;
-  
+    height: 250%;
+    max-height: 250%;
 }
 
 .nav-menu-item{
@@ -165,12 +164,28 @@ a{
 
 
 #footer{
-    color: black;
+    
     width: 100%;
     text-align: center;
     background-color: #222222;
-
     margin-top: auto;
+    align-items: center;
+    
+}
+
+.footer-container p{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(196, 196, 196);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.footer-one{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 25% 0 25%;
+
 }
 
 
@@ -181,9 +196,10 @@ a{
   }
 
   .logo-container{
-    max-width: 40%;
+    max-width: 50%;
     padding-left: 0;
     margin-left: 10%;
+    padding: 0;
   }
 
   #top-header{
@@ -198,4 +214,48 @@ a{
   .bars{
     margin-right: 10%;
   }
+  .container-nav{
+    transition: height .0s;
+  }
+}
+
+@media (min-width: 1080px){
+    #header{
+        justify-content: space-between;
+    }
+    .bars{
+        display: none;
+    }
+    .container-nav{
+        height: 100%;
+        top: 0;
+        flex-direction: row;
+        width: 100%;
+        z-index: 0;
+        box-shadow: none;
+        transition: height .3s;
+        
+    }
+    .span-help{
+        display: none;
+    }
+    .nav nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-container{
+        position: relative;
+        height: 100%;
+        padding: 0;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-menu-item{
+        padding-left: 10px;
+    }
+    .carrito{
+        margin-left: 15px;
+    }
 }
