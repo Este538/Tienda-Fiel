@@ -25,32 +25,35 @@
         </div>
     </div>
     <header id="header">
-        <div class="logo-container">
-                 <a class="logo " href="?p=inicio" ><img src="./images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
-         </div>
-         <div class="container-nav">
-            <span class="span-help"></span>
-            <div class="nav">
-                <nav>
-                    <ul class="nav-menu" id="nav-menu">
-                        <li class="nav-menu-item"><a  href="?p=inicio" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Inicio</a></li>
-                        <li class="nav-menu-item"><a  href="?p=catalogo" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
-                        <li class="nav-menu-item"><a href="?p=contacto" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
-                        <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
-            <div class="carrito">
-                <button id="registro" class="registro">
-                    <a href="login.html"><p>sing up/login</p></a>
-                </button>
-             </div>
-         </div>
-         <div class="bars">
-            <button class="btn-bars">
-                 <i class="fa-solid fa-bars"></i>
-            </button>
+        
+                <div class="logo-container">
+                        <a class="logo " href="?p=inicio" ><img src="./images/logo.png" alt="logo" width="367px" height="118px" class="logo"></a>
+                </div>
+                <div class="container-nav">
+                    <span class="span-help"></span>
+                    <div class="nav">
+                        <nav>
+                            <ul class="nav-menu" id="nav-menu">
+                                <li class="nav-menu-item"><a  href="?p=inicio" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Inicio</a></li>
+                                <li class="nav-menu-item"><a  href="?p=catalogo" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Catálogo</a></li>
+                                <li class="nav-menu-item"><a href="?p=contacto" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Contacto</a></li>
+                                <li class="nav-menu-item"><a href="" class="nav-menu-link"><i class="fa-solid fa-lemon"></i>Blog</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="carrito">
+                        <button id="registro" class="registro">
+                            <a href="login.html"><p>sing up/login</p></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="bars">
+                    <button class="btn-bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
 
-         </div>
+                </div>
+        
+        
     </header>

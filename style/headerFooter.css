@@ -24,7 +24,9 @@ a{
 }
 .fa-phone, .fa-envelope{
     color: #ffffff;
+    margin-right: 4px;
 }
+
 
 .registro{
     background: none;
@@ -94,6 +96,7 @@ a{
     z-index: 99999;
     justify-content: center;
 }
+
 .container-nav{
    display: flex;
    flex-direction: column;
@@ -151,7 +154,7 @@ a{
 .bars{
     position: absolute;
     right: 0;
-    font-size: 36px;
+    
     padding: 22px;
 }
 
@@ -170,59 +173,28 @@ a{
 }
 
 
-/*
-///bars <i class="fa-solid fa-bars"></i> ///
-
-.nav{
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 0;
-}
-nav{
-    height: 100%;
-}
-
-.nav-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-decoration: none;
-}
-
-.logo-container{
+@media (min-width:720px){
     
-    height: 100%;
-    width: 100%;
-}
+  .btn-bars{
+    font-size: 26px;
+  }
 
-.carrito{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.nav-menu-item, .nav-menu-link{
-    display: flex;
-    flex-direction: row;
-}
+  .logo-container{
+    max-width: 40%;
+    padding-left: 0;
+    margin-left: 10%;
+  }
 
-.nav {
-    margin-right: 25px;
-    
-}
-.nav-menu-link{
-    gap: 3px;
-}
+  #top-header{
+    text-align: left;
+  }
 
-.nav-menu li{
-    padding: 12px 12px;
+  .container-th{
+    width: 80%;
+    text-align: left;
+    justify-content: left;
+  }
+  .bars{
+    margin-right: 10%;
+  }
 }
-
-.carrito button{
-   margin: 12px 12px;
-}
-*/

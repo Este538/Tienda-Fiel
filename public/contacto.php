@@ -50,6 +50,7 @@
              <input type="text" name="telefono" id="telefono-contacto" placeholder="Teléfono(10 dígitos)" class="input">
              <input type="text" name="ciudad" id="ciudad-contacto" placeholder="Ciudad" class="input">
              <input type="text" name="estado" id="estado-contacto" placeholder="Estado" class="input">
+             <textarea name="mensaje" id="mensaje-contacto" cols="30" rows="10" class="input" placeholder="Mensaje"></textarea>
              <div class="btn-enviar-container">
               <button type=submit name="enviar-fcontacto" class="btn-enviar">Enviar</button>
              </div>
