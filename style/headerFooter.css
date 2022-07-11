@@ -16,9 +16,15 @@ a{
 .fa-solid, .fa-lemon{
     color: #FFB72B;
 }
-
+.fa-lemon{
+    display: none;
+}
 .fa-phone, .fa-envelope{
     color: #ffffff;
+}
+
+.registro{
+    background: none;
 }
 
 #top-header{
@@ -82,7 +88,7 @@ a{
     justify-content: center;
 }
 .container-nav{
-   display: none;
+   display: flex;
    flex-direction: column;
    align-items: center;
    background-color: #fff;
@@ -91,24 +97,25 @@ a{
    max-width: 60%;
    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
     position: relative;
-    top: 0;
-    height: 200%;
-    max-height: 200%;
+    top: 81px;
+    height: 0;
     overflow: scroll;
     width: 200%;
     z-index: 99;
-    transform: translateY(-20px);
-    transition-property: transform;
-    transition-duration: 3.3s;
+    transition: height .4s;
 }
 
 .nav-menu_visible{
-    top: 82px;
-    display: flex;
-    transform: translateY(0px);
-    transition-property: transform;
-    transition-duration: 3.3s;
+    height: 150%;
+    max-height: 150%;
+  
 }
+
+.nav-menu-item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 
 .span-help{
     position: absolute;
@@ -128,6 +135,7 @@ a{
     height: 100%;
     padding: 10px;
 }
+
 
 .btn-bars{
     background: none;

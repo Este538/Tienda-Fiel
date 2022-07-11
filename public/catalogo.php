@@ -1,6 +1,6 @@
-<?php require('../layout/header.php') ?>
-<main>
-    <section id="sobreT">
+
+<main class="main">
+    <section id="catalogo">
         <div class="texto">
             <p>Seleccione el que más le guste</p>
         </div>
@@ -24,4 +24,3 @@
     </section>
 </main>
 
-<?php require('../layout/footer.php') ?>

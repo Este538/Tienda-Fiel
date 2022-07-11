@@ -1,8 +1,8 @@
-<?php require('../layout/header.php') ?>
+
 <main class="main">
     <section id="mine-hero">
         <div class="container-slider">
-           <div class="contacto-titulo"> <h3>Contactanos</h3></div>
+           <div class="contacto-tituloi"> <h3 id="texto-slider">Mas de 20 toneladas de fruta por dia</h3></div>
         </div>
     </section>
 
@@ -10,7 +10,7 @@
         
         <div class="container-st">
              <div class="foto">
-                <img src="../images/camion.gif" alt="citricos" class="citrico-sobre"> 
+                <img src="./images/camion.gif" alt="citricos" class="citrico-sobre"> 
             </div>
             <div class="descripcion">
                 <h3>Bienvenido a Orange</h3>
@@ -28,4 +28,3 @@
        
     </section>
 </main>
-<?php require('../layout/footer.php') ?>

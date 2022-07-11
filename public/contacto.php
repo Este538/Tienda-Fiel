@@ -1,4 +1,4 @@
-<?php require('../layout/header.php') ?>
+
 <main class="main">
   <section id="hero-contactanos">
       <div class="container-contacto">
@@ -59,4 +59,3 @@
  
 </main>
 
-<?php require('../layout/footer.php') ?>
