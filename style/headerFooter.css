@@ -257,5 +257,8 @@ a{
     }
     .carrito{
         margin-left: 15px;
+        justify-content: center;
+        margin-bottom: 15px;
     }
+
 }

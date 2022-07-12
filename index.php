@@ -8,3 +8,5 @@
    require_once './public/'. $pagina . '.php';
 
     require_once './layout/footer.php';
+
+    //version que entregamos

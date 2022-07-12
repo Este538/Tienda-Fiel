@@ -68,9 +68,9 @@
                                     if(mysqli_num_rows($sql) > 0){
                                     $row = mysqli_fetch_assoc($sql);
                                     } ?>
-                                    <div class="content-user">
+                                    <div class="content-user" style="display:flex; padding-top:15px;">
                                         <img src="./layout/images/<?php echo $row['img']; ?>" alt="">
-                                        <div class="details">
+                                        <div class="details" style="justify-content:center; padding-top:15px; padding-left:5px;">
                                             <span><?php echo $row['Nombre']. " " . $row['Apellido'] ?></span>
                                         </div>
                                     </div>    
